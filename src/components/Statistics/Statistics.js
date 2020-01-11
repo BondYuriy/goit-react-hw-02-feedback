@@ -1,13 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-const FEEDBECK_LABEL = {
-  good: 'Good',
-  neutral: 'Neutral',
-  bad: 'Bad',
-  total: 'Total',
-  positineFeedbek: 'Positine feedbek',
-};
+import FEEDBECK_LABEL from '../../services/constants';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <div>
